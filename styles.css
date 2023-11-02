@@ -7,7 +7,7 @@
 body {
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgb(27, 27, 49);
+  background-color: rgb(27, 27, 49); 
   height: 100vh;
   max-width: 800px; 
   margin: 0 auto;
@@ -47,7 +47,7 @@ form .input label{
 }
 form .settings{
   background-color: rgb(47, 47, 82);
-  width: 50%;
+  width: 70%;
   border-radius: 5px;
   padding: 0.8rem;
   display: flex;
