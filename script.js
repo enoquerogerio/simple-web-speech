@@ -62,9 +62,6 @@ form.onsubmit = (event) => {
   event.preventDefault();
 
   let text = inputTxt.value;
-  if (text === 'taya') {
-    text = 'Smurfina';
-  }
 
   let utterance = new SpeechSynthesisUtterance(text);
   const selectedOption =
