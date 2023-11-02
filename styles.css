@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgb(27, 27, 49);
+  height: 100vh;
+  max-width: 800px; 
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form .input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+form .input #txt{
+  max-width: 500px;
+  height: 100px;
+  background-color: rgb(47, 47, 82);
+  border-radius: 5px;
+  border: 2px solid rgb(179, 175, 175);
+  padding: 10px;
+  color: #fff;
+  word-wrap: break-word;
+  font-size: 1.3rem;
+}
+form .input label{
+  max-width: 500px;
+  color: rgb(179, 175, 175);
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+form .settings{
+  background-color: rgb(47, 47, 82);
+  width: 50%;
+  border-radius: 5px;
+  padding: 0.8rem;
+  display: flex;
+  gap: 0.5rem;
+}
+form .settings #voice{
+  border-style: none;
+  background: rgb(47, 47, 82);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+form .settings span{
+  color: rgb(179, 175, 175);
+  opacity: 0.8;
+}
+#speed button{
+  background-color: inherit;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+#speed #button{
+  background-color: rgb(20, 20, 46);
+  border-radius: 5px;
+}
+#speech{
+  margin-top: 20px;
+  cursor: pointer;
+  display: block;
+  max-width: 500px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.8rem;
+  background-color: rgb(119, 119, 133);
+  color:#fff;
+}
