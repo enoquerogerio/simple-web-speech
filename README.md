@@ -16,7 +16,7 @@ To run this application locally, follow these steps:
 
 2. Open the project folder and navigate to `index.html` in your preferred web browser.
 
-3. Use the provided interface to input your text, select a voice, set the desired speed, and click the "Read" button to initiate TTS.
+3. Use the provided interface to input your text, select a voice, set the desired speed, and click the "Text To Speech" button to initiate TTS.
 ```
 
 ## Features
